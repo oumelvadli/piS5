@@ -1,0 +1,258 @@
+# Translation of Plugins - Admin Bar Tools - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Admin Bar Tools - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-12 16:13:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Admin Bar Tools - Development (trunk)\n"
+
+#. translators: %1$s = Plugin name, %2$s = Plugin version, $3$s is something
+#. like "PHP 5.6" or "PHP 5.6 and WordPress 4.0".
+#: src/class-sfabt-requirements-check.php:178
+msgid "To function properly, %1$s %2$s requires at least %3$s."
+msgstr "Pour fonctionner correctement, %1$s %2$s nécessite au moins %3$s."
+
+#. translators: 1 is a file name, 2 is HTML tag name.
+#: src/classes/AdminUI.php:181
+msgid "Here you can test everything you want with your code, simply by editing the file %1$s in the plugin and printing stuff: it will be escaped and wrapped in a %2$s tag automatically."
+msgstr "Ici vous pouvez tester tout ce que vous voulez avec votre code, simplement en modifiant le fichier %1$s dans l’extension et affichant des données : elles seront automatiquement échappées et encapsulées dans une balise %2$s."
+
+#: src/classes/AdminUI.php:162
+msgid "Tests file not found."
+msgstr "Fichiers de test non trouvés."
+
+#: src/classes/AdminUI.php:138
+msgid "Code Tester"
+msgstr "Testeur de code"
+
+#. translators: 1 is the plugin name.
+#: src/classes/AdminUI.php:135
+msgid "%s' tests page"
+msgstr "Page de tests %s"
+
+#: src/classes/DisplayData/AdminHooks/NodesUI.php:62
+msgid "Admin hooks"
+msgstr "Crochets d’administration"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:134
+msgid "Template arguments:"
+msgstr "Arguments de modèle :"
+
+#. translators: 1 is a formatted number (don't use %d).
+#: src/classes/DisplayData/PhpMemory/NodesUI.php:57
+#: src/classes/DisplayData/PhpMemory/NodesUI.php:132
+msgid "Memory used: %s"
+msgstr "Mémoire utilisée : %s"
+
+#. translators: 1 is the WordPress version in use.
+#: src/classes/DisplayData/BaseItems/NodesUI.php:119
+msgid "WP %s"
+msgstr "WordPress %s"
+
+#. translators: 1 is the PHP version in use.
+#: src/classes/DisplayData/BaseItems/NodesUI.php:101
+msgid "php %s"
+msgstr "php %s"
+
+#: src/classes/DisplayData/SomeVar/NodesUI.php:170
+msgid "Sorry, you are not allowed to do that."
+msgstr "Désolé, vous n’avez pas la permission de faire cela."
+
+#: src/classes/DisplayData/SomeVar/Data.php:140
+#: src/classes/DisplayData/SomeVar/Data.php:144
+#: src/classes/DisplayData/SomeVar/Data.php:163
+msgid "Sorry, you are not allowed to see this user's data."
+msgstr "Désolée, vous n’avez pas la permission de voir les données de ce compte."
+
+#. translators: 1 is the error reporting level.
+#: src/classes/DisplayData/Debug/NodesUI.php:129
+msgid "Error reporting %s"
+msgstr "Signalement des erreurs %s"
+
+#. Description of the plugin
+msgid "Adds some small development tools to the admin bar."
+msgstr "Ajoute quelques petits outils de développement à la barre d’administration."
+
+#. Author URI of the plugin
+msgid "https://www.screenfeed.fr/greg/"
+msgstr "https://www.screenfeed.fr/greg/"
+
+#. Author of the plugin
+msgid "Grégory Viguier"
+msgstr "Grégory Viguier"
+
+#. Plugin URI of the plugin
+msgid "https://www.screenfeed.fr/sf-abt/"
+msgstr "https://www.screenfeed.fr/sf-abt/"
+
+#. Plugin Name of the plugin
+msgid "SF Admin Bar Tools"
+msgstr "SF Admin Bar Tools"
+
+#. translators: 1 is a user capacity.
+#: src/classes/ProfileUI.php:207
+msgid "ERROR: could not find users with the capability \"%s\"."
+msgstr "ERREUR : Impossible de trouver des comptes avec la permission « %s »."
+
+#: src/classes/ProfileUI.php:188
+msgid "Me"
+msgstr "Moi"
+
+#. translators: 1 is a user capacity.
+#: src/classes/ProfileUI.php:150
+msgid "ERROR: could not find roles with the capability \"%s\"."
+msgstr "ERREUR : impossible de trouver des rôles avec la permission « %s »."
+
+#: src/classes/ProfileUI.php:89
+msgid "Console spamming"
+msgstr "Spam de la console"
+
+#: src/classes/ProfileUI.php:99
+msgid "When you're on a post edit screen, WordPress keeps a track of your current status very frequently with ajax calls. This can be boring if you're working in your JavaScript console, so you can disable it here."
+msgstr "Quand vous êtes dans l’écran de modification d’une publication, WordPress conserve très fréquemment une trace de l’état courant, avec des appels Ajax. Cela peut être gênant si vous travaillez dans la console JavaScript, alors cette option permet de le désactiver."
+
+#: src/classes/ProfileUI.php:96
+msgid "Disable posts autosave, authentication check, and everything related to Heartbeat (for you only)."
+msgstr "Désactiver la sauvegarde automatique des publications, la vérification de l’authentification, et tout ce qui est relatif à Heartbeat (uniquement pour vous)."
+
+#: src/classes/ProfileUI.php:84
+msgid "Who's gonna use this plugin?"
+msgstr "Qui va utiliser cette extension ?"
+
+#: src/classes/DisplayData/SomeVar/NodesUI.php:94
+msgid "Click to reload the value"
+msgstr "Cliquez pour recharger la valeur"
+
+#: src/classes/DisplayData/SomeVar/NodesUI.php:93
+msgid "Close this modal window"
+msgstr "Fermer cette fenêtre modale"
+
+#: src/classes/DisplayData/Debug/NodesUI.php:56
+msgid "WP_DEBUG is disabled"
+msgstr "WP_DEBUG est désactivé"
+
+#: src/classes/DisplayData/Debug/NodesUI.php:56
+msgid "WP_DEBUG is enabled"
+msgstr "WP_DEBUG est activé"
+
+#. translators: 1 is a formatted number (don't use %d), 2 is a number of
+#. seconds (float).
+#: src/classes/DisplayData/BaseItems/NodesUI.php:75
+#: src/classes/DisplayData/BaseItems/NodesUI.php:163
+msgid "%1$s q. - %2$s s"
+msgstr "%1$s q. - %2$s s"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:209
+msgid "Must-Use plugin"
+msgstr "Extension indispensable"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:204
+msgid "plugin"
+msgstr "extension"
+
+#. translators: 1 is "plugin" or "Must-Use plugin".
+#: src/classes/DisplayData/Templates/NodesUI.php:258
+msgctxt "plugin"
+msgid "%s, symlinked"
+msgstr "%s, liée symboliquement"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:199
+msgid "theme compat"
+msgstr "compatibilité du thème"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:194
+msgid "theme"
+msgstr "Thème"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:190
+msgid "parent theme"
+msgstr "thème parent"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:186
+msgid "child theme"
+msgstr "thème enfant"
+
+#. translators: 1 is "theme", "child theme", etc.
+#: src/classes/DisplayData/Templates/NodesUI.php:255
+msgctxt "theme"
+msgid "%s, symlinked"
+msgstr "%s, lié symboliquement"
+
+#: src/classes/DisplayData/SomeVar/NodesUI.php:179
+msgid "Variable not found."
+msgstr "Variable non trouvée."
+
+#: src/classes/DisplayData/Templates/NodesUI.php:155
+msgid "Template part"
+msgstr "Partie du modèle"
+
+#: src/classes/DisplayData/Templates/NodesUI.php:88
+msgid "Template"
+msgstr "Texte à afficher"
+
+#. translators: 1 is a variable's name.
+#: src/classes/DisplayData/SomeVar/NodesUI.php:130
+msgid "Display %s's value"
+msgstr "Afficher la valeur de %s"
+
+#: src/classes/DisplayData/SomeVar/NodesUI.php:95
+#: src/classes/DisplayData/SomeVar/NodesUI.php:122
+msgid "Loading..."
+msgstr "En cours de chargement&hellip;"
+
+#. translators: 1 is a list of parameters and their value.
+#: src/classes/DisplayData/AdminHooks/NodesUI.php:226
+msgid "Parameter: %s"
+msgid_plural "Parameters: %s"
+msgstr[0] "Paramètre : %s"
+msgstr[1] "Paramètres : %s"
+
+#. translators: 1 is the name of a parameter, 2 is its value.
+#: src/classes/DisplayData/AdminHooks/NodesUI.php:215
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#. translators: 1 and 2 can be... anything.
+#: src/classes/DisplayData/Debug/NodesUI.php:72
+#: src/classes/DisplayData/Debug/NodesUI.php:91
+#: src/classes/DisplayData/Debug/NodesUI.php:110
+#: src/classes/DisplayData/PhpMemory/NodesUI.php:75
+#: src/classes/DisplayData/PhpMemory/NodesUI.php:94
+#: src/classes/DisplayData/Pagenow/NodesUI.php:76
+#: src/classes/DisplayData/CurrentScreen/NodesUI.php:74
+msgid "%1$s: %2$s"
+msgstr "%1$s&nbsp;: %2$s"
+
+#: src/classes/DisplayData/AdminHooks/NodesUI.php:71
+msgid "Hooks in footer"
+msgstr "Crochets dans le footer"
+
+#: src/classes/DisplayData/AdminHooks/NodesUI.php:70
+msgid "Hooks after headers"
+msgstr "Crochets après les headers"
+
+#: src/classes/DisplayData/AdminHooks/NodesUI.php:69
+msgid "Hooks before headers"
+msgstr "Crochets avant les headers"
+
+#. translators: 1 is a user name.
+#: src/classes/DisableWPFeatures.php:124
+msgid "%s is currently editing this post."
+msgstr "%s est en train de modifier cette publication."
+
+#: src/classes/DisableWPFeatures.php:110
+msgid "Autosave and post lock disabled. As long as you don't save your modifications, you can mess with this post!"
+msgstr "La sauvegarde automatique et le verrouillage de la publication sont désactivés. Tant que vous n’enregistrez pas vos modifications, vous pouvez perdre votre contenu ! "
+
+#: src/classes/AdminUI.php:120
+msgid "All Settings"
+msgstr "Toutes les options"
+
+#: src/classes/AdminUI.php:93
+msgid "Profile"
+msgstr "Profil"
